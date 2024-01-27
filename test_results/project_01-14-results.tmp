@@ -1,0 +1,39 @@
+=============================================================================================================================================================================
+== Test 14: Attempt to Update Non-Existent File
+== Creates an initial archive, then attempts to update a file that is not
+== actually contained in the archive. Verifies that the expected error message
+== is printed and that the archive stays in its original state.
+Running test...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 1
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run File Setup
+-- Copies files to be archived into current directory
+Expected output is in file 'test_results/raw/project_01-14-1-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-14-1-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 2
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run Archive Creation
+-- Create an initial archive using 'minitar'
+Expected output is in file 'test_results/raw/project_01-14-2-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-14-2-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 3
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run Archive Update
+-- Attempt to apply an update to a file that is not contained in the archive
+Expected output is in file 'test_results/raw/project_01-14-3-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-14-3-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 4
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run File Comparison
+-- Extract files from the archive with 'tar' and verify that their contents are
+-- correct
+Expected output is in file 'test_results/raw/project_01-14-4-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-14-4-actual.tmp'
+Test PASSED

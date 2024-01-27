@@ -1,0 +1,37 @@
+=============================================================================================================================================================================
+== Test 10: Single-File Archive List
+== Creates a single-file archive, then uses 'minitar' to list the files in that
+== archive.
+Running test...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 1
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run File Setup
+-- Copies files to be archived into current directory
+Expected output is in file 'test_results/raw/project_01-10-1-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-10-1-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 2
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run Archive Creation
+-- Create an initial archive using 'minitar'
+Expected output is in file 'test_results/raw/project_01-10-2-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-10-2-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 3
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run Archive List
+-- List the files in the previously created archive
+Expected output is in file 'test_results/raw/project_01-10-3-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-10-3-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 4
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run File Cleanup
+-- Copies files to be archived into current directory
+Expected output is in file 'test_results/raw/project_01-10-4-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-10-4-actual.tmp'
+Test PASSED

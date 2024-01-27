@@ -1,0 +1,29 @@
+=============================================================================================================================================================================
+== Test 2: Create Single Binary File Archive
+== Creates an archive from one binary file. Uses 'tar' to extract from the new
+== archive and checks that all extracted files match the original versions.
+Running test...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 1
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run File Setup
+-- Copies files to be archived into current directory
+Expected output is in file 'test_results/raw/project_01-02-1-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-02-1-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 2
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run Archive Creation
+-- Create an archive using 'minitar'
+Expected output is in file 'test_results/raw/project_01-02-2-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-02-2-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 3
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run File Comparison
+-- Compare files extracted from archive using 'tar' with the original versions.
+Expected output is in file 'test_results/raw/project_01-02-3-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-02-3-actual.tmp'
+Test PASSED

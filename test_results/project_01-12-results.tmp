@@ -1,0 +1,53 @@
+=============================================================================================================================================================================
+== Test 12: List Before and After Append
+== Creates an archive, lists its files, appends more files to the archive, then
+== lists the archive's files a second time.
+Running test...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 1
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run File Setup
+-- Copies files to be archived into current directory
+Expected output is in file 'test_results/raw/project_01-12-1-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-12-1-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 2
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run Archive Creation
+-- Create an initial archive using 'minitar'
+Expected output is in file 'test_results/raw/project_01-12-2-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-12-2-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 3
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run Archive List 1
+-- List the files in the previously created archive
+Expected output is in file 'test_results/raw/project_01-12-3-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-12-3-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 4
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run Archive Append
+-- Create an initial archive using 'minitar'
+Expected output is in file 'test_results/raw/project_01-12-4-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-12-4-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 5
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run Archive List 2
+-- List the files in the previously created archive
+Expected output is in file 'test_results/raw/project_01-12-5-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-12-5-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 6
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run File Cleanup
+-- Remove temporary archive files from the current directory
+Expected output is in file 'test_results/raw/project_01-12-6-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-12-6-actual.tmp'
+Test PASSED

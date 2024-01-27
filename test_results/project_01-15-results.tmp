@@ -1,0 +1,47 @@
+=============================================================================================================================================================================
+== Test 15: Update Multiple files in Archive
+== Creates an initial archive, then updates several files in that archive.
+== Extracts files from the archive using 'tar', then checks that each extracted
+== file has the correct contents.
+Running test...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 1
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run File Setup
+-- Copies files to be archived into current directory
+Expected output is in file 'test_results/raw/project_01-15-1-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-15-1-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 2
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run Archive Creation
+-- Create an initial archive using 'minitar'
+Expected output is in file 'test_results/raw/project_01-15-2-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-15-2-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 3
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run File Modification
+-- Change several files in current directory to new versions
+Expected output is in file 'test_results/raw/project_01-15-3-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-15-3-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 4
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run Archive Update
+-- Update the archive to contain the new file versions
+Expected output is in file 'test_results/raw/project_01-15-4-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-15-4-actual.tmp'
+Test PASSED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 5
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action 1: Run File Comparison
+-- Extract files from the archive with 'tar' and verify that their contents are
+-- correct
+Expected output is in file 'test_results/raw/project_01-15-5-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-15-5-actual.tmp'
+Test PASSED

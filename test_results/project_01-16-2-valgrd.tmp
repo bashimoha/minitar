@@ -1,0 +1,15 @@
+==413== Memcheck, a memory error detector
+==413== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==413== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==413== Command: ./minitar -c -f test.tar f11.txt f13.txt f15.bin f17.bin
+==413== Parent PID: 37
+==413== 
+==413== 
+==413== HEAP SUMMARY:
+==413==     in use at exit: 0 bytes in 0 blocks
+==413==   total heap usage: 51 allocs, 51 frees, 75,177 bytes allocated
+==413== 
+==413== All heap blocks were freed -- no leaks are possible
+==413== 
+==413== For lists of detected and suppressed errors, rerun with: -s
+==413== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

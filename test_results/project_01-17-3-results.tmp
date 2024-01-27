@@ -1,0 +1,5 @@
+-- Attempt to apply an update to a group of files, some of which are not
+-- contained in the archive
+Expected output is in file 'test_results/raw/project_01-17-3-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-17-3-actual.tmp'
+Test PASSED

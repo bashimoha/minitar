@@ -1,0 +1,4 @@
+-- Compare files extracted from archive using 'tar' with the original versions.
+Expected output is in file 'test_results/raw/project_01-09-4-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-09-4-actual.tmp'
+Test PASSED

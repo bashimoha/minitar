@@ -1,0 +1,5 @@
+-- Extract files from the archive with 'tar' and verify that their contents are
+-- correct
+Expected output is in file 'test_results/raw/project_01-17-4-expected.tmp'
+Actual output is in file 'test_results/raw/project_01-17-4-actual.tmp'
+Test PASSED
